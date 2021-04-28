@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.recherche{
+    flex: 1 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 410px;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.nav-bar{
+    flex: 0 0 auto;
+    color: rgb(29, 27, 27);
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.nav-ul{
+    padding: 16px 30px;
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: block;
+    list-style: disc;
+}
+li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.dots-app{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+}
+.dots{
+    height: 25px;
+}
+.boite-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bar{
+    border: 2px solid #e4e4e4;
+    border-radius: 30px;
+    width: 450px;
+    height: 40px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#loupe{
+    margin-left: 15px;
+}
+#google-logo{
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.search-input{
+    background-color: transparent;
+    border: none;
+    outline: transparent;
+    border-color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 85%;
+    height: 30px;
+    font-size: 15pt;
+}
+.boutons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bouton{
+    margin: 10px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #5f6368;
+    background-color: #f2f2f2;
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 10px 14px;
+}
+
+.langue{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+.langue a{
+    color: blueviolet;
+}
+footer{
+    display: block;
+}
+.foot{
+    position: relative;
+    border-top: 1px solid #e4e4e4;
+
+}
+footer{
+    display: block;
+    color: rgb(95,95,105);
+}
+.footer-gauche{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+footer a{
+    margin-left: 20px;
+}
+.footer-droite{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
